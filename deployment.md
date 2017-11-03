@@ -5,7 +5,10 @@ This guide aims to centralize the setup and operational steps required for each 
 
 ## Elastic Beanstalk (AKA EB)
 
-Fill this in ASAP
+Install the aws eb client.
+Ensure there is a `.elasticbeanstalk/config.yml` set up in your project root (should be gitignored by default).
+
+Assuming your IAM credentials are set up within the AWS console, and your eb configuration files are set up correctly locally, run `eb deploy` from the project root.
 
 ## Heroku
 
