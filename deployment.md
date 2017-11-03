@@ -9,6 +9,8 @@ Fill this in ASAP
 
 ## Heroku
 
+use Heroku CLI or `git push heroku master` or use heroku dashboard to set up deploy via github.
+
 ## Capistrano (targeting Linode, Rackspace, etc)
 
 Generally this requires having your ssh public key distributed to the servers in question, which might also involve an entry in your local `~/.ssh/config` file. After that, it should be automatic or interactively guided by running `$YOUR_PROJECT_ROOT/bin/deploy`
